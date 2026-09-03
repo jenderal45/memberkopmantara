@@ -405,7 +405,7 @@ export const PengurusPernyataanModal: React.FC<PengurusPernyataanModalProps> = (
                   <span>Kirim Pernyataan ke WhatsApp Admin (Kak Vania) →</span>
                 </button>
 
-                <button
+                {/*<button
                   type="button"
                   onClick={() => {
                     onEnterDashboard();
@@ -414,7 +414,7 @@ export const PengurusPernyataanModal: React.FC<PengurusPernyataanModalProps> = (
                   className="w-full sm:w-auto py-3 px-4 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 font-semibold text-xs transition-colors cursor-pointer"
                 >
                   Lewati ke Dashboard
-                </button>
+                </button>*/}
               </div>
             </form>
           )}
