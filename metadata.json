@@ -1,0 +1,6 @@
+{
+  "name": "KOPMANTARA - Koperasi Pengusaha Muda Nusantara",
+  "description": "Welcome to Kopmantara (kopmantara.co.id) - Portal Resmi KOPMANTARA (Koperasi Pengusaha Muda Nusantara). Gerbang akses resmi Portal Anggota dan Portal Pengurus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
