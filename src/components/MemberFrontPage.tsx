@@ -73,9 +73,9 @@ export const MemberFrontPage: React.FC<MemberFrontPageProps> = ({
               KOPMANTARA
             </span>
           </div>
-          <span className="text-[10px] tracking-widest uppercase font-semibold text-slate-400">
+          {/*<span className="text-[10px] tracking-widest uppercase font-semibold text-slate-400">
             Kopmantara Group
-          </span>
+          </span>*/}
         </div>
 
         {/* Welcome Headline */}
