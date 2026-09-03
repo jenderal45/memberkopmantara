@@ -2,6 +2,8 @@ import React from 'react';
 import { UserAccount, UserRole } from '../types';
 import { Users, Shield, ArrowRight } from 'lucide-react';
 
+import logoKopmantara from '../../assets/logo-kopmantara.png';
+
 interface MemberFrontPageProps {
   currentUser?: UserAccount;
   gformUrl?: string;
@@ -36,8 +38,14 @@ export const MemberFrontPage: React.FC<MemberFrontPageProps> = ({
         {/* Kopmantara Group Official Logo */}
         <div className="mb-6 flex flex-col items-center justify-center">
           <div className="flex items-center justify-center gap-2 mb-1">
+            <img
+                src={logoKopmantara}
+                alt="KOPMANTARA"
+                className="h-14 sm:h-16 w-auto object-contain"
+            />
+            
             {/* Custom SVG Emblem matching Kopmantara Group identity */}
-            <svg
+            {/*<svg
               className="w-10 h-10 text-[#1E3A2B]"
               viewBox="0 0 48 48"
               fill="none"
@@ -45,7 +53,7 @@ export const MemberFrontPage: React.FC<MemberFrontPageProps> = ({
               aria-label="Kopmantara Group Logo"
             >
               <rect width="48" height="48" rx="12" fill="#14281D" />
-              {/* Geometric stylized K with gold and emerald accents */}
+              {/* Geometric stylized K with gold and emerald accents
               <path
                 d="M14 12V36"
                 stroke="#F3E5AB"
@@ -60,7 +68,7 @@ export const MemberFrontPage: React.FC<MemberFrontPageProps> = ({
                 strokeLinejoin="round"
               />
               <circle cx="34" cy="14" r="3" fill="#34D399" />
-            </svg>
+            </svg>*/}
             <span className="text-base sm:text-lg font-black tracking-wider text-[#14281D] font-serif">
               KOPMANTARA
             </span>
